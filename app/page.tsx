@@ -1,45 +1,3 @@
-// import Image from "next/image";
-// import Link from "next/link";
-
-// export default function Home() {
-//     return (
-//         <main className="p-6 text-center bg-white dark:bg-gray-900 rounded-xl shadow-md max-w-3xl mx-auto mt-10">
-//             <Image
-//                 src="/images/profile.jpeg"
-//                 alt="Profile photo"
-//                 width={150}
-//                 height={150}
-//                 className="mx-auto rounded-full shadow-lg"
-//             />
-//             <h1 className="text-3xl font-bold mt-6 text-gray-800 dark:text-white">
-//                 Hello, I’m{" "}
-//                 <span className="text-green-400">Mohamed Essoufi</span>
-//             </h1>
-//             <p className="text-lg mt-2 text-gray-50  mb-4">
-//                 Full-Stack Web Developer (MERN Stack)
-//             </p>
-
-//             <p className="mb-2 text-gray-700 dark:text-gray-300 leading-relaxed">
-//                 I am a passionate web developer specializing in MERN stack
-//                 development (MongoDB, Express.js, React, Node.js).
-//             </p>
-//             <div className="mt-6 flex justify-center gap-4">
-//                 <Link
-//                     href="/projects"
-//                     className="px-4 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition duration-300"
-//                 >
-//                     View My Projects
-//                 </Link>
-//                 <Link
-//                     href="/contact"
-//                     className="px-4 py-2 border border-green-600 text-[#fffffe] rounded-full hover:bg-green-600 hover:text-white transition duration-300"
-//                 >
-//                     Contact Me
-//                 </Link>
-//             </div>
-//         </main>
-//     );
-// }
 "use client";
 import Image from "next/image";
 import Link from "next/link";
@@ -53,11 +11,11 @@ export default function Home() {
             className="p-6 text-center bg-white dark:bg-gray-900 rounded-xl shadow-md max-w-3xl mx-auto mt-10"
         >
             <Image
-                src="/images/profile.jpeg"
+                src="/images/profile.jpg"
                 alt="Profile photo"
                 width={150}
                 height={150}
-                className="mx-auto rounded-full shadow-lg"
+                className="mx-auto rounded-full shadow-lg border-t-4 border-b-4 border-green-500"
             />
             <h1 className="text-3xl font-bold mt-6 text-gray-800 dark:text-white">
                 Hello, I’m{" "}

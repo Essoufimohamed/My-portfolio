@@ -31,7 +31,7 @@ const projects: Project[] = [
             "A comprehensive student management system for handling records, grades, and course registrations.",
         images: ["/images/management_student.jpg"],
         github: "https://github.com/Essoufimohamed/sms-jadara",
-        demo: "https://sms-jadara.example.com",
+        // demo: "", camming soon
         tags: [
             "MERN",
             "React",
@@ -54,8 +54,8 @@ const projects: Project[] = [
             "/images/maalem_4.png",
             "/images/maalem_5.png",
         ],
-        github: "https://github.com/Essoufimohamed/maalem-app",
-        demo: "https://maalem.example.com",
+        github: "https://github.com/Essoufimohamed/Maalem-artisan-booking-app",
+        // demo: "", comming soon
         tags: [
             "MERN",
             "React",
